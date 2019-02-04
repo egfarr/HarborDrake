@@ -43,5 +43,14 @@ public class Dragon {
         level = 0;
     }
     
-    
+    /**
+     * toString to test constructor for Dragon class
+     * @return String
+     */
+    @Override
+    public String toString() {
+        return "Dragon: \n" + "name: " + name + "\n ID: " + ID + "\n age: " + 
+                age + "\n gender: " + gender + "\n breed: " + breed + "\n level: "
+                + level;
+    }
 }
